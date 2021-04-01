@@ -1,0 +1,4 @@
+FROM alpine:3.7
+RUN apk update && apk upgrade
+RUN apk add nginx
+RUN apk add php7 php7-fpm php7-opcache
